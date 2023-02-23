@@ -9,11 +9,15 @@ export default () => (
         <span>
         <form>
             <label>
-                Enter Your Email:
+                <p>Enter Your Email: </p> 
                 <input name="email" defaultValue="your@email.com" />
             </label>
             <br></br>
-            <button type="submit">Submit email</button>
+            <label>
+            Type your message:
+      <textarea name="postContent" rows={4} cols={40} />
+        </label>
+            <button className="button1" type="submit">Submit</button>
         </form>
         </span>
     </div>
