@@ -6,13 +6,15 @@ export default () => (
         <h1>
             Contact Us 
         </h1>
-        <div>
+        <span>
         <form>
             <label>
-                <input type="text" name="email" />
+                Enter Your Email:
+                <input name="email" defaultValue="your@email.com" />
             </label>
-            <input type="submit" name="Send" />
+            <br></br>
+            <button type="submit">Submit email</button>
         </form>
-        </div>
+        </span>
     </div>
 )
