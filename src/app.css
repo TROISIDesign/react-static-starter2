@@ -14,7 +14,8 @@ a {
 }
 
 img {
-  max-width: 70%;
+  max-width: 100%;
+  height: 400px;
   display: flex;
   align-items: center;
 }
@@ -25,7 +26,7 @@ nav {
 }
 
 nav a {
-  color: rgb(170, 255, 176);
+  color: rgb(255, 255, 255);
   padding: 1rem;
   display: inline-block;
 }
