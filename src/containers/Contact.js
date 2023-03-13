@@ -16,7 +16,7 @@ export default () => (
             <label>
             Type your message:
       <textarea name="postContent" rows={4} cols={40} />
-        </label>
+        </label><br></br>
             <button className="button1" type="submit">Submit</button>
         </form>
         </span>
